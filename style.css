@@ -96,6 +96,23 @@ ul.no-bullets {
 
 /***    EXPERTISE SECTION   ***/
 
+.horizontal-line {
+  position: relative;
+  width: 3rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+
+.horizontal-line::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(177, 177, 177);
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
 #expertise-section {
   display: flex;
   justify-content: center;
@@ -117,7 +134,21 @@ ul.no-bullets {
 .expertise-card {
   max-width: 14rem;
   padding: 1.5rem;
-  border: 1px solid rgb(242, 242, 242);
+}
+
+.expertise-card-1,
+.expertise-card-2 {
+  border-right: 1px solid rgb(227, 227, 227);
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.expertise-card-3 {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.expertise-card-4,
+.expertise-card-5 {
+  border-right: 1px solid rgb(227, 227, 227);
 }
 
 .section-heading,
@@ -143,12 +174,15 @@ ul.no-bullets {
 footer {
   color: white;
   background-image: url(./images/bgk-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 4rem;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.7;
+  width: 100%;
 }
 
 .footer-info-container {
@@ -159,6 +193,8 @@ footer {
 .footer-section {
   max-width: 16rem;
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -166,19 +202,18 @@ footer {
   align-items: center;
 }
 
-.footer-logo-img {
-  width: 2rem;
-  height: 3rem;
-}
-
 .footer-logo-text {
-  margin-left: 1rem;
+  margin: 0 1rem;
   color: rgb(15, 123, 81);
   font-size: 1.5rem;
 }
 
 .footer-heading {
   text-transform: uppercase;
+}
+
+.footer-copy {
+  font-size: 0.875rem;
 }
 
 .footer-contact {
@@ -216,7 +251,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
+  width: 82%;
   margin: 0 auto;
 }
 
