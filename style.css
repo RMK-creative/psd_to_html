@@ -8,6 +8,24 @@ a {
   text-decoration: none;
 }
 
+
+/***    WATCH SECTION   ***/
+#watch-section{
+    background: url(images/watch-Section.png);
+}
+
+.youTube-icon{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    left: 580px;
+    top: 220px;
+    text-align: center;
+    color: white;
+    
+}
+
+
 /***    EXPERTISE SECTION   ***/
 
 #expertise-section {
