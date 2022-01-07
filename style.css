@@ -119,46 +119,70 @@ ul.no-bullets {
 
 
 .container-1{
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/bgk-middle.png");
     display: flex;
-    background-color: midnightblue;
-    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
 
 }
-.container-1 div{
-    border: 1px solid black;
-    padding: 30px;
+
+.container-1 p.text{
+    margin-top: 0px;
+}
+
+
+.box{
+    margin: 30px;
+    border: 1px solid white;
+    height: 250px;
+    width: 180px;
     text-align: center;
     
-}
-
-    
-
-.box1{
-    margin: 30px;
-    background-color: white;
-    
 
 }
 
-.box2{
-    margin: 30px;
-    background-color: white;
-
+.box-container{
+    display: flex;
 }
 
-.box3{
-    margin: 30px;
+.box-image{
+    
+    width: 100%;
+    height: 70%;
     background-color: white;
     
-
 }
 
-.box4{
-    margin: 30px;
-    background-color: white;
+.box-text{
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
     
 
+  
+  /***  ???  ***/
+}
+ .footer{
+     text-align: center;
+ }
 
+ .button-cls{
+     text-transform: uppercase;
+     color: green;
+     padding: 10px;
+     margin-bottom: 20px;
+     background-color: transparent;
+     border: 1px solid green;
+ }
+
+ h4{
+     margin-top: 20px;
+ }
 
 /***    EXPERTISE SECTION   ***/
 
@@ -374,4 +398,5 @@ footer {
   text-transform: uppercase;
   margin-right: 1rem;
 }
+
 
