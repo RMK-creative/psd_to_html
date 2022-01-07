@@ -204,6 +204,7 @@ ul.no-bullets {
 }
 
 #expertise-section {
+  padding: 4rem 0;
   display: flex;
   justify-content: center;
   text-align: center;
