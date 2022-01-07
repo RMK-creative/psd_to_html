@@ -1,1 +1,62 @@
+#our_story-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
 
+.text
+{
+    margin-left: 90px;
+}
+.form-button,.more-button{
+    color :blue;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid blue;
+}
+#contact_client-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.clients
+{
+    margin-left: 60px;
+    width: 50%;
+   
+    
+}
+
+.contact-form
+{
+    margin-left: 60px;
+   
+    width: 50%;
+}
+
+.clients img {
+    width: 100px ;
+    margin: 20px ;
+    
+}
+
+.form-input input{
+    width: 100%;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-container{
+   
+    width: 100%;
+    display: flex;
+}
