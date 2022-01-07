@@ -6,17 +6,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    
   </head>
   <body>
     <header>
-      <nav>navigation</nav>
-      <section id="hero-section">hero section</section>
+      <section class="hero-section">
+      <nav id="navigation">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo"></img>
+        <p>tajam</p>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Expertise</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">PeopleSay</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+      <section id="message"></section>
+      <p>
+        <h1 class="header-text">We are Awsome Creative Agency</h1>
+      </p>
+      <p></p>
+      <p class="header-msg">
+         This is Photoshop's Version of Lorem Ipsum.Lorem ipsum dolor sit amet, 
+         consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo 
+         duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+         ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.  
+      </p>
+        <button type="button">Learn more!</button>
+    </section>
     </header>
+
     <main>
+      <!-- Our Story Section -->
+      <section id="our_story-section">
+        
+      <img src="./images/logo-big.png" alt="logo"><br>
+
+      <div class="text">
+      <h2>OUR STORY </h2>
+        <p>
+          This is Photoshop's version of Lorem Lpsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
+        </p>
+        <p>
+          Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p><br>
+       
+        <input type="submit"  name="learn-more" value="LEARN MORE" class="more-button"><br><br><br>
+      </div>
+      </section>
+
+      <!-- contact / client section -->
+      <section id="contact_client-section">
+        <div class="contact-container">
+        <div class="contact-form">
+        <h2>GIVE US A GOOD NEWS</h2>
+        <form action=" " method="POST" class="form-input">
+          <input type="text" name="name" placeholder="Name"><br><br>
+          <input type="text" name="email" placeholder="Email"><br><br>
+          <input type="text" name="subject" placeholder="Subject"><br><br>
+          
+          <textarea placeholder="Your Message" id="your-message" name="your-message" rows="10" cols="30"></textarea>
+        </form>
+        <br>
+        <input type="submit" name="submit" value="SUBMIT" class="form-button"><br>
+        </div>
+
+        <div class="clients">
+          <h2>OUR HAPPY CLIENT</h2>
+          <img src="./images/Zara_Logo.png" alt="Zara-Logo">
+          <img src="./images/Logo_of_Mango_(new).png" alt="Mango-Logo">
+          <img src="./images/1280px-Barneys_New_York_Logo.png" alt="Barneys-Logo">
+          <img src="./images/1280px-Gucci_Logo.png" alt="Gucci-Logo">
+          <img src="./images/Calvin_klein_logo.png" alt="Calvin-Logo">
+          <img src="./images/1280px-Logo_NIKE.png" alt="Nike-Logo">
+          <img src="./images/Converse_logo.png" alt="Converse-Logo">
+          <img src="./images/Puma_Logo.png" alt="Puma-Logo">
+          <img src="./images/1280px-Levi's_logo.png" alt="Levi's-Logo">
+          <img src="./images/Billabong.png" alt="Billabong-Logo">
+        </div>
+      </div>
+      </section>
+    </main>
+
       <section id="our_story-section">our story section</section>
-      <section id="watch-section">watch section section</section>
-      <section id="expertise-section">expertise section</section>
-      <section id="team-section">team section</section>
+      
+      <div>
+        <section id="watch-section">
+          <div class="youTube-icon">
+            <img src="images/youtube.png" alt="">
+            <p>Watch Our Story</p>
+  
+          </div>
+        </section>
+      </div>
+
+      <section id="expertise-section">
+        <div class="expertise-container">
+          <h2 class="section-heading">expertise</h2>
+          <p class="section-sub-heading">
+            Lorem ipsum dolor sit amet proin gravida bigh vel velit
+          </p>
+          <div class="horizontal-line"></div>
+
+          <div class="expertise-cards-container">
+            <section class="expertise-card expertise-card-1">
+              <img
+                class="expertise-card-icon"
+                src="./images/screen.png"
+                alt=""
+              />
+              <h3 class="expertise-card-title">web design &amp; development</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+
+            <section class="expertise-card expertise-card-2">
+              <img class="expertise-card-icon" src="./images/pen.png" alt="" />
+              <h3 class="expertise-card-title">branding identity</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+
+            <section class="expertise-card expertise-card-3">
+              <img
+                class="expertise-card-icon"
+                src="./images/mobile.png"
+                alt=""
+              />
+              <h3 class="expertise-card-title">mobile app</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+
+            <section class="expertise-card expertise-card-4">
+              <img
+                class="expertise-card-icon"
+                src="./images/graph.png"
+                alt=""
+              />
+              <h3 class="expertise-card-title">search engine optimization</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+
+            <section class="expertise-card expertise-card-5">
+              <img
+                class="expertise-card-icon"
+                src="./images/gameboy.png"
+                alt=""
+              />
+              <h3 class="expertise-card-title">game development</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+
+            <section class="expertise-card expertise-card-6">
+              <img
+                class="expertise-card-icon"
+                src="./images/heart.png"
+                alt=""
+              />
+              <h3 class="expertise-card-title">made with love</h3>
+              <p class="expertise-card-copy">
+                This is Photoshops version of Lorem Ipsum. Proin gravida nigb
+                vel velit auctor aliquet
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="team-section">team section</section>     
 
       <section class="container-1">
         <h4>MEET OUR AMAZING TEAM</h4>
@@ -64,9 +241,85 @@
       </footer>
     </section>
 
+      
+      <div>
+        <section id="team-section">
+          
+        </section>
 
-      <section id="contact_client-section">contact / client section</section>
+      </div>
+      
     </main>
-    <footer>footer</footer>
+
+    <footer>
+      <div class="footer-info-container">
+        <section class="footer-section-1 footer-section">
+          <div class="footer-logo">
+            <img class="footer-logo-img" src="./images/logo.png" alt="" />
+            <h2 class="footer-logo-text">tajam</h2>
+          </div>
+
+          <p class="footer-copy">
+            Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+            sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
+            mauris vitae erat in elit
+          </p>
+        </section>
+
+        <section class="footer-section-2 footer-section">
+          <h2 class="footer-heading">our studio</h2>
+          <div class="footer-contact">
+            <img class="footer-contact-icon" src="./images/big104.png" alt="" />
+            <p class="footer-copy">
+              Ruko corucur JL Radio luar dalem job No.12 - 1 lasdf - Jakarta
+              bara 11480 - Indonesia
+            </p>
+          </div>
+          <div class="footer-contact">
+            <img
+              class="footer-contact-icon"
+              src="./images/phone351.png"
+              alt=""
+            />
+            <p class="footer-phone">(+62) 21-2224 3333</p>
+          </div>
+        </section>
+
+        <section class="footer-section-3 footer-section">
+          <h2 class="footer-heading">stay in touch</h2>
+          <form class="footer-form" action="" method="">
+            <label for="email"></label>
+            <input
+              class="footer-email"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Subscribe our newsletter"
+            />
+            <button class="footer-button">
+              <img src="./images/paper122.png" alt="" />
+            </button>
+          </form>
+          <div class="footer-socials">
+            <img src="./images/facebook.png" alt="" />
+            <img src="./images/twitter.png" alt="" />
+            <img src="./images/dribbble.png" alt="" />
+            <img src="./images/instagram.png" alt="" />
+            <img src="./images/gplus.png" alt="" />
+            <img src="./images/youtube.png" alt="" />
+          </div>
+        </section>
+      </div>
+      <section class="footer-links">
+        <div>
+          <a class="footer-link" href="">help</a>
+          <a class="footer-link" href="">terms &amp; conditions</a>
+          <a class="footer-link" href="">privacy</a>
+        </div>
+        <div>
+          <p>Copyright &copy; 2015 - Tajam Creative</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
